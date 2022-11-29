@@ -15,19 +15,19 @@ con lo que el programa se interrumpe. Realiza los cambios necesarios para contro
 estos errores.
 '''
 
+#No indicas el tipo de dato
+def sumaNumeros (num1:int,num2:int): 
+    return (num1+num2) #Nos ahorramos una variable
 
-def sumaNumeros (num1,num2): 
-    suma=num1+num2
-    return (suma)
 
-
+#Muy bien
 def mostrarMenu ():
     print("1-Sumar")
     print("2-Salir")
 
 
-numero=0
 
+numero=0
 
 while (numero!=2):
     try:
